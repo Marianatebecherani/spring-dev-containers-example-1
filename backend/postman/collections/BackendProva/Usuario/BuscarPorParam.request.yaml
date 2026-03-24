@@ -1,0 +1,7 @@
+$kind: http-request
+name: BuscarPorParam
+url: "{{BASE_URL}}/usuario/busca-id?id=4"
+method: GET
+queryParams:
+  id: "4"
+order: 3000

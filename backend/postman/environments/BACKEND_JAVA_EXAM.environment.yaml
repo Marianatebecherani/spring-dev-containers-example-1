@@ -1,6 +1,0 @@
-name: BACKEND_JAVA_EXAM
-values:
-  - key: BASE_URL
-    value: http://localhost:3000/api/v1
-    enabled: true
-color: null

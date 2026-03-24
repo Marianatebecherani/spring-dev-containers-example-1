@@ -1,0 +1,6 @@
+name: BACKEND_PROVA
+values:
+  - key: BASE_URL
+    value: 'http://localhost:8080'
+    enabled: true
+    type: default

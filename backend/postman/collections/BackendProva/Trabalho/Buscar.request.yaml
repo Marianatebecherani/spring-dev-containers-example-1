@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{BASE_URL}}/trabalho/busca?titulo=Teste&autor=Mariana"
+method: GET
+queryParams:
+  titulo: Teste
+  autor: Mariana
+order: 3819815570109888

@@ -1,9 +1,9 @@
 $kind: http-request
-name: Update
+name: Atualizar
 url: "{{BASE_URL}}/usuario/:id"
 method: PUT
 pathVariables:
-  id: "1"
+  id: "6"
 body:
   type: json
   content: "{\r
@@ -20,10 +20,9 @@ body:
 
     \    ],\r
 
-    \    \"nome\": \"joniel rodrigues\",\r
+    \    \"nome\": \"Mineda\",\r
 
-    \    \"senha\":
-    \"$2a$10$i3.Z8Yv1Fwl0I5SNjdCGkOTRGQjGvHjh/gMZhdc3e7LIovAklqM6C\"\r
+    \    \"senha\": \"1234567890\"\r
 
     }"
-order: 4869
+order: 6000

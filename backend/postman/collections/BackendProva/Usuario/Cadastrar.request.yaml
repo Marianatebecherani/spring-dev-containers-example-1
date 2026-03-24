@@ -1,4 +1,5 @@
 $kind: http-request
+name: Cadastrar
 url: "{{BASE_URL}}/usuario"
 method: POST
 body:
@@ -17,10 +18,9 @@ body:
 
     \    ],\r
 
-    \    \"nome\": \"joniel\",\r
+    \    \"nome\": \"Mineda\",\r
 
-    \    \"senha\":
-    \"$2a$10$i3.Z8Yv1Fwl0I5SNjdCGkOTRGQjGvHjh/gMZhdc3e7LIovAklqM6C\"\r
+    \    \"senha\": \"123456\"\r
 
     }"
 order: 5000

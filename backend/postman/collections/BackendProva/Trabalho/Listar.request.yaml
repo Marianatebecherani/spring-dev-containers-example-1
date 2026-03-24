@@ -1,0 +1,5 @@
+$kind: http-request
+name: Listar
+url: "{{BASE_URL}}/trabalho"
+method: GET
+order: 1774296782208

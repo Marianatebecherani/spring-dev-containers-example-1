@@ -1,9 +1,8 @@
 $kind: http-request
+name: Delete
 url: "{{BASE_URL}}/usuario/:id"
 method: DELETE
 pathVariables:
-  id: "2"
-body:
-  type: json
-  content: ""
-order: 6000
+  - key: id
+    value: "4"
+order: 7000

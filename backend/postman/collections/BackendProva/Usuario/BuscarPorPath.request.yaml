@@ -1,6 +1,7 @@
 $kind: http-request
+name: BuscarPorPath
 url: "{{BASE_URL}}/usuario/:id"
 method: GET
 pathVariables:
-  id: "2"
+  id: "1"
 order: 2000

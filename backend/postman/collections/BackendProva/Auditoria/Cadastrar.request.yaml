@@ -1,0 +1,24 @@
+$kind: http-request
+name: Cadastrar
+url: "{{BASE_URL}}/catraca"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"dataHoraCatraca\": \"2026-03-21T09:40:17\",\r
+
+    \    \"metodo\": \"Cartao\",\r
+
+    \    \"sentido\": \"Saida\",\r
+
+    \    \"tempo\": 5,\r
+
+    \    \"usuario\": {\r
+
+    \        \"id\": 1\r
+
+    \    }\r
+
+    }"
+order: 1509807443877781

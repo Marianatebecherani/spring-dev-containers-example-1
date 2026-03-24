@@ -1,0 +1,8 @@
+$kind: http-request
+name: ConsultaData
+url: "{{BASE_URL}}/catraca/buscar?nome=Mariana Tebecherani&data=2026-03-23T10:00:00"
+method: GET
+queryParams:
+  nome: Mariana Tebecherani
+  data: 2026-03-23T10:00:00
+order: 4155338226246631

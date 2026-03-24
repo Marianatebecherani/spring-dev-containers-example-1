@@ -1,13 +1,6 @@
 # Use this workspace to collaborate
 workspace:
-  id: b104da6c-c795-49c6-bb7a-89ddc1737df0
-
-# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
-cloudResources:
-  collections:
-    ..\postman\collections\BackendJavaExam: 38617597-19f78b2a-c486-452c-bb47-93ff42971b0e
-  environments:
-    ..\postman\environments\BACKEND_JAVA_EXAM.environment.yaml: 38617597-c793240a-adb7-49ac-8ec9-2dd7bd3446e9
+  id: 5d28f9fb-90f6-465a-820d-63533945959e
 
 # All resources in the `postman/` folder are automatically registered in Local View.
 # Point to additional files outside the `postman/` folder to register them individually. Example:
