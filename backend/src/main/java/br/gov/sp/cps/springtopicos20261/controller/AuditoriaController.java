@@ -28,7 +28,7 @@ public class AuditoriaController {
         return service.buscarTodos();
     }
 
-    @GetMapping(value = "/buscar/{antigo}/{autorizacao}")
+    @GetMapping(value = "/buscar/{nomeAntigo}/{autorizacao}")
     public List<Auditoria> buscarPorNomes(
             @PathVariable("antigo") String antigo, 
             @PathVariable("autorizacao") String autorizacao) {
