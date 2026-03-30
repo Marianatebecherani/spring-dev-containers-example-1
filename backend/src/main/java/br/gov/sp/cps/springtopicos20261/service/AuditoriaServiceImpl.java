@@ -35,9 +35,14 @@ public class AuditoriaServiceImpl implements AuditoriaService {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "O nome novo deve ser diferente do nome antigo!");
         }
 
-        // Validação: Mais de 8 caracteres e inicia com "ROLE_"
-        if (auditoria.getNomeNovo().length() <= 8 || !auditoria.getNomeNovo().startsWith("ROLE_")) {
-            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "O nome novo deve ter mais de 8 caracteres e começar com 'ROLE_'!");
+        // Validação: Mais de 8 caracteres
+        if (auditoria.getNomeNovo().length() <= 8) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "O nome novo deve ter mais de 8 caracteres!");
+        }
+
+        // Validação: inicia com "ROLE_"
+        if (!auditoria.getNomeNovo().startsWith("ROLE_")) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "O nome novo deve começar com 'ROLE_'!");
         }
 
         // Validação: Risco entre 0 e 10 (se informado)

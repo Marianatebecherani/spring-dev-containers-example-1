@@ -4,7 +4,7 @@ create table aud_auditoria (
 	aud_nome_novo varchar(20) not null,
 	aud_data_hora timestamp not null,
 	aud_autorizacao bigint not null,
-	aud_risco int,
+	aud_risco real,
 	foreign key (aud_autorizacao) references aut_autorizacao (aut_id)
 );
 

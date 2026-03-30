@@ -1,20 +1,18 @@
 $kind: http-request
 name: Cadastrar
-url: "{{BASE_URL}}/catraca"
+url: "{{BASE_URL}}/auditoria"
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"dataHoraCatraca\": \"2026-03-21T09:40:17\",\r
+    \    \"nomeAntigo\": \"ROLE_USER\",\r
 
-    \    \"metodo\": \"Cartao\",\r
+    \    \"nomeNovo\": \"ROLA_TE\",\r
 
-    \    \"sentido\": \"Saida\",\r
+    \    \"risco\": 5.5,\r
 
-    \    \"tempo\": 5,\r
-
-    \    \"usuario\": {\r
+    \    \"autorizacao\": {\r
 
     \        \"id\": 1\r
 

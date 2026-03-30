@@ -1,6 +1,5 @@
 package br.gov.sp.cps.springtopicos20261.controller;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import org.springframework.web.bind.annotation.*;
 
@@ -28,7 +27,7 @@ public class AuditoriaController {
         return service.buscarTodos();
     }
 
-    @GetMapping(value = "/buscar/{nomeAntigo}/{autorizacao}")
+    @GetMapping(value = "/buscar/{antigo}/{autorizacao}")
     public List<Auditoria> buscarPorNomes(
             @PathVariable("antigo") String antigo, 
             @PathVariable("autorizacao") String autorizacao) {

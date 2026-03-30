@@ -1,6 +1,5 @@
 package br.gov.sp.cps.springtopicos20261.service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 import br.gov.sp.cps.springtopicos20261.entity.Auditoria;

@@ -1,0 +1,8 @@
+$kind: http-request
+name: BuscaPorParam
+url: "{{BASE_URL}}/auditoria/buscar/:antigo/:autorizacao"
+method: GET
+pathVariables:
+  antigo: ROO
+  autorizacao: ROLE_ADMIN
+order: 4315247037552933
