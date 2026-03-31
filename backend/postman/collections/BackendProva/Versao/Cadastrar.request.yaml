@@ -1,0 +1,22 @@
+$kind: http-request
+name: Cadastrar
+url: "{{BASE_URL}}/versao"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"novoTexto\": \"Versao nova\",\r
+
+    \    \"justificativa\": \"Correcao de erro ortografico\",\r
+
+    \    \"nivelDiferenca\": 4,\r
+
+    \    \"anotacao\": {\r
+
+    \        \"id\": 1\r
+
+    \    }\r
+
+    }"
+order: 1509807443877781

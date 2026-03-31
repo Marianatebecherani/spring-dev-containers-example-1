@@ -1,0 +1,5 @@
+$kind: http-request
+name: BuscarTodos
+url: "{{BASE_URL}}/versao"
+method: GET
+order: 1774314740962
